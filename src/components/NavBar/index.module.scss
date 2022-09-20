@@ -1,0 +1,13 @@
+@import '../../settings.scss';
+
+.root {
+    margin: 0;
+    height: 150px;
+    outline: 2px red solid;
+}
+
+.link {
+    font-size: 60px;
+    text-decoration: none;
+    font-family: 'Rock 3D';
+}
