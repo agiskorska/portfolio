@@ -1,8 +1,9 @@
 import React from 'react'
 
+import styles from './index.module.scss'
 function index() {
   return (
-    <div>Footer</div>
+    <div className={styles.root}>Footer</div>
   )
 }
 

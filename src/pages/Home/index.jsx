@@ -1,8 +1,12 @@
 import React from 'react'
 
+import styles from './index.module.scss'
+import { Kaleidoscope } from '../../components'
 function index() {
   return (
-    <div>Home</div>
+    <div className={styles.root}>
+      <Kaleidoscope />
+    </div>
   )
 }
 

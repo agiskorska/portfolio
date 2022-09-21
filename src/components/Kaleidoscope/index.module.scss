@@ -1,0 +1,51 @@
+.tiledGallery {
+    height: 500px;
+    width: 500px;
+    background-image: url('../assets/profile_square.jpg');
+    background-size: contain;
+
+    display: grid;
+
+    grid-template-columns: 1fr  1fr 1fr;
+}
+
+.galleryImg {
+    width: 300px;
+}
+
+.tile {
+    opacity: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    opacity: 1;
+    background-color: blue;
+    animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
+    animation-timing-function:linear; 
+
+}
+
+
+
+@keyframes spin {
+    from {
+        transform:rotateY(90deg);
+    }
+    to {
+        transform:rotateY(0deg);
+    }
+}
+
+.parent {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+@import '../../settings.scss';
+
+.root {
+    width: 100%;
+    outline: 1px rgb(255, 0, 255) solid;
+    min-height: 100px;
+    position: sticky;
+    bottom: 0;
+
+}
