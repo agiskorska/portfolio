@@ -4,13 +4,16 @@ import { Outlet } from 'react-router-dom';
 import { NavBar, Footer } from '../../components'
 import styles from './index.module.scss'
 
-function MainLayout({children}) {
+function MainLayout() {
   return (
-    <main className={styles.root}>
-      <NavBar />
-      <Outlet />
-      <Footer />
-    </main>
+    <div className={styles.root}>
+      <NavBar className={styles.nav} />
+      <main className={styles.main}>
+        <Outlet />
+      </main>
+      <Footer className={styles.footer} />
+    </div>
+
   )
 }
 
