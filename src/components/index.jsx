@@ -1,4 +1,6 @@
 export { default as Article } from './Article'
-export { default as NavBar } from './NavBar'
+export { default as Input } from './Input'
 export { default as Footer } from './Footer'
+export { default as Form } from './Form'
 export { default as Kaleidoscope } from './Kaleidoscope'
+export { default as NavBar } from './NavBar'
