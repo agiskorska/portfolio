@@ -7,7 +7,7 @@ function index() {
   return (
       <div className={styles.parent}>
         <section className={styles.tiledGallery}>
-            <div className={styles.tile}>Github</div>
+            <div className={styles.tile}><a className={styles.a} href="https://github.com/agiskorska">My Github</a></div>
             <div className={styles.tile}>LinkedIn</div>
             <div className={styles.tile}>Fiverr</div>
             <div className={styles.tile}>Chippenham Pride</div>

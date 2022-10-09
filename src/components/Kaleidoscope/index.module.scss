@@ -5,12 +5,16 @@
     background-size: contain;
 
     display: grid;
-
     grid-template-columns: 1fr  1fr 1fr;
 }
 
 .galleryImg {
     width: 500px;
+}
+
+.a {
+    text-decoration: none;
+    color: transparent;
 }
 
 .tile {
@@ -21,7 +25,7 @@
     color: transparent;
 }
 
-.tile:hover {
+.tile:hover, .tile:hover .a {
     font-family: 'Inconsolata';
     color: white;
     font-weight: bold;
