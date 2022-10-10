@@ -7,6 +7,7 @@ function index() {
   return (
     <header className={styles.root}>
       <p className={styles.title}>Aggie Skorska</p>
+      <p className={styles.subTitle}>Full Stack Web developer</p>
       <nav className={styles.navbar}>
         <NavLink className={styles.link} to='/'><h3 className={styles.h3}>Home</h3><h4 className={styles.h4}>See the main page</h4><h5  className={styles.h5}>for general stuff</h5></NavLink>
         <NavLink className={styles.link} to='/about'><h3 className={styles.h3}>About</h3><h4 className={styles.h4}>A little about me</h4><h5  className={styles.h5}>so we get familiar</h5></NavLink>
