@@ -2,10 +2,11 @@
   font-family: "Rock 3D";
   src: url("./assets/fonts/rock3d.ttf");
 }
+@font-face {
+  font-family: "Inconsolata";
+  src: url("./assets/fonts/Inconsolata.ttf");
+}
 .root {
   width: 100%;
   outline: 1px rgb(255, 0, 255) solid;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
 }/*# sourceMappingURL=index.module.css.map */
