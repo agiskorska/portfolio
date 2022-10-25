@@ -1,3 +1,5 @@
+@import '../../settings.scss';
+
 .tiledGallery {
     height: 500px;
     width: 500px;
@@ -39,4 +41,22 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.copiedMsg{
+    position:absolute;
+    color: white;
+    background-color: $copiedColor;
+    padding: 10px 20px;
+}
+
+.copiedMsg::after{
+    position: absolute;
+    content: '';
+    width: 0; 
+    height: 0; 
+    bottom: -30%;
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 20px solid $copiedColor;
 }
