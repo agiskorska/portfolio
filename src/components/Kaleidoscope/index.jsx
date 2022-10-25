@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import img from '../../../assets/images/profile_square.jpg'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
-
+import cv from '../../../assets/files/cv.pdf'
 import styles from './index.module.scss'
 
 function Kaleidoscope() {
@@ -23,7 +23,7 @@ function Kaleidoscope() {
         <div className={styles.tile}><a className={styles.a} href="https://www.linkedin.com/in/aggie-skorska-683924192/">LinkedIn</a></div>
         <div className={styles.tile}>Fiverr</div>
         <div className={styles.tile}><a className={styles.a} href="https://chippenhampride.com">Chippenham Pride</a></div>
-        <div className={styles.tile}>Other Stuff</div>
+        <div className={styles.tile}><a className={styles.a} href={cv} download>My CV</a></div>
         <div className={styles.tile}>Small projects</div>
         <div className={styles.tile}><a className={styles.a} href="https://cohorts.getfutureproof.co.uk/available/aggieskorska">Futureproof</a></div>
         <CopyToClipboard text={'07898397503'} onCopy={handleCopied}>
