@@ -1,12 +1,16 @@
 @font-face {
   font-family: "Rock 3D";
-  src: url("./assets/fonts/rock3d.ttf");
+  src: url("./public/fonts/rock3d.ttf");
 }
 @font-face {
   font-family: "Inconsolata";
-  src: url("./assets/fonts/Inconsolata.ttf");
+  src: url("./public/fonts/Inconsolata.ttf");
 }
 .root {
   width: 100%;
-  outline: 1px rgb(255, 0, 255) solid;
+}
+
+.credits {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }/*# sourceMappingURL=index.module.css.map */
