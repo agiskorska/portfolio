@@ -1,8 +1,13 @@
 @import '../../settings.scss';
 
 .tiledGallery {
+    height: 500px;
+    width: 500px;
+    background-image: url('./assets/images/profile_square.jpg');
+    background-size: contain;
+
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr  1fr 1fr;
 }
 
 .galleryImg {
@@ -11,9 +16,7 @@
 
 .a {
     text-decoration: none;
-    font-family: 'Inconsolata';
-    color: white;
-    font-weight: bold;
+    color: transparent;
 }
 
 .tile {
@@ -56,20 +59,4 @@
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;
     border-top: 20px solid $copiedColor;
-}
-
-@media (min-width: 700px) {
-    .tiledGallery {
-        height: 500px;
-        width: 500px;
-        background-image: url('./public/images/profile_square.jpg');
-        background-size: contain;
-    
-        display: grid;
-        grid-template-columns: 1fr  1fr 1fr;
-    }
-
-    .a{
-        color: transparent;
-    }
 }

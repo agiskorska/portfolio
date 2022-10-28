@@ -7,8 +7,12 @@
   src: url("./assets/fonts/Inconsolata.ttf");
 }
 .tiledGallery {
+  height: 500px;
+  width: 500px;
+  background-image: url("./assets/images/profile_square.jpg");
+  background-size: contain;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .galleryImg {
@@ -17,9 +21,7 @@
 
 .a {
   text-decoration: none;
-  font-family: "Inconsolata";
-  color: white;
-  font-weight: bold;
+  color: transparent;
 }
 
 .tile {
@@ -48,7 +50,7 @@
 .copiedMsg {
   position: absolute;
   color: white;
-  background-color: rgba(7, 148, 7, 0.776);
+  background-color: rgba(6, 209, 6, 0.84);
   padding: 10px 20px;
 }
 
@@ -60,19 +62,5 @@
   bottom: -30%;
   border-left: 20px solid transparent;
   border-right: 0px solid transparent;
-  border-top: 20px solid rgba(7, 148, 7, 0.776);
-}
-
-@media (min-width: 700px) {
-  .tiledGallery {
-    height: 500px;
-    width: 500px;
-    background-image: url("./public/images/profile_square.jpg");
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .a {
-    color: transparent;
-  }
+  border-top: 20px solid rgba(6, 209, 6, 0.84);
 }/*# sourceMappingURL=index.module.css.map */
